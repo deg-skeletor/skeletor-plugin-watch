@@ -1,0 +1,26 @@
+{
+  "name": "skeletor-plugin-watch",
+  "version": "0.1.0",
+  "description": "A Skeletor plugin for running tasks when watched files change",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint index.js"
+  },
+  "author": "Ryan Heap <heaper@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deg-skeletor/skeletor-plugin-watch.git"
+  },
+  "peerDependencies": {
+    "skeletor-core": "git+https://github.com/deg-skeletor/skeletor-core.git"
+  },
+  "dependencies": {
+    "chokidar": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "jest": "^22.2.1"
+  }
+}
