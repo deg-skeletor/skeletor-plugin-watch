@@ -14,7 +14,7 @@
     "url": "git+https://github.com/deg-skeletor/skeletor-plugin-watch.git"
   },
   "peerDependencies": {
-    "skeletor-core": "git+https://github.com/deg-skeletor/skeletor-core.git"
+    "@deg-skeletor/core": "^0.1.0"
   },
   "dependencies": {
     "chokidar": "^2.0.3"
