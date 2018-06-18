@@ -1,6 +1,6 @@
 {
-  "name": "@skeletor/plugin-watch",
-  "version": "0.1.0",
+  "name": "@deg-skeletor/plugin-watch",
+  "version": "0.1.1",
   "description": "A Skeletor plugin for running tasks when watched files change",
   "main": "index.js",
   "scripts": {
