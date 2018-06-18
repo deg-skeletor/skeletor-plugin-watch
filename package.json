@@ -1,5 +1,5 @@
 {
-  "name": "skeletor-plugin-watch",
+  "name": "@skeletor/plugin-watch",
   "version": "0.1.0",
   "description": "A Skeletor plugin for running tasks when watched files change",
   "main": "index.js",
@@ -22,5 +22,14 @@
   "devDependencies": {
     "eslint": "^4.17.0",
     "jest": "^22.2.1"
-  }
+  },
+  "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "skeletor",
+        "skeletor-plugin",
+        "watch",
+        "chokidar"
+    ]
 }

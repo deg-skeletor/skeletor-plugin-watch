@@ -1,6 +1,15 @@
 language: node_js
 node_js:
-  - "node"
+- node
 cache:
   directories:
-    - "node_modules"
+  - node_modules
+deploy:
+  provider: npm
+  email: scheul93@gmail.com
+  api_key:
+    secure: RWYTILJFUCAj+c9jhjfjJ+3fbLI82L6egaxi+bQfd2Yfw5wzHSm258tqDgW9mpZp53RtJClzZy8zHSvLAuXDIFKqaKfNBZrqEur4zP24U4IVdWAj3l4HUo6gO4XkPGcDg+skh6N1PDmJJ3kCnCKd1Ae8lfwo6pdtvaV5MCwdjLHGhwHH9N+z1VwXbf9IIyRm/G8rcpYRvVoIH4EZ+p7Amn1ehnZV8dBZtdf+lbVPSiBMO+bZbDnhzM3rYjotX+aGZ8Rpkpf47TN+eZWZpcM5LGfDLYt7HZWy9B5r0jX44LriD229n3vqcCNsXrHkx458wBq0AmunJsm1HDnpsBwyIRJoa3NvieUR8KQ5zaIeHnEyvHnppFCLUp+mW+0VoXCSw4DqZkxaNqw3xwxSqb3yFkBWpBpr2qAryV79DEAI+oMMuEgNuIaVedyQ//iiXQRVV43rF45mWScsyksEXvAWOiJ87cNhB9mDIjiHH57ob9QdCipOLPtI5C10Yj8gqw6Ze0tQ+69JFWpXTDMU19XLFvKh7lRz0YVhLFfUNv4dQeE4pjmLGf5n5rTjTTBU7ylDdf49irCjKzFMrbsk8fI9T2TertTQYdlIliCUNU8KrP5UpXgpP/n4PG+zH2w0GhXV57Io9KWMyMvxJwtS3XWGrOBglMfUORgakQOyBiFGD00=
+  on:
+    branch: master
+    tags: true
+    repo: deg-skeletor/skeletor-plugin-watch
