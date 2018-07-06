@@ -1,6 +1,6 @@
 {
   "name": "@deg-skeletor/plugin-watch",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "A Skeletor plugin for running tasks when watched files change",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/deg-skeletor/skeletor-plugin-watch.git"
   },
   "peerDependencies": {
-    "@deg-skeletor/core": "^0.1.0"
+    "@deg-skeletor/core": "^1.0.0"
   },
   "dependencies": {
     "chokidar": "^2.0.3"
