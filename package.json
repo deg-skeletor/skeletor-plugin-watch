@@ -1,6 +1,6 @@
 {
   "name": "@deg-skeletor/plugin-watch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Skeletor plugin for running tasks when watched files change",
   "main": "index.js",
   "scripts": {
@@ -20,16 +20,16 @@
     "chokidar": "^2.0.3"
   },
   "devDependencies": {
-    "eslint": "^4.17.0",
-    "jest": "^22.2.1"
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0"
   },
   "publishConfig": {
-        "access": "public"
-    },
-    "keywords": [
-        "skeletor",
-        "skeletor-plugin",
-        "watch",
-        "chokidar"
-    ]
+    "access": "public"
+  },
+  "keywords": [
+    "skeletor",
+    "skeletor-plugin",
+    "watch",
+    "chokidar"
+  ]
 }
