@@ -1,5 +1,5 @@
 # skeletor-plugin-watch
-[![Build Status](https://travis-ci.org/deg-skeletor/skeletor-plugin-watch.svg?branch=master)](https://travis-ci.org/deg-skeletor/skeletor-plugin-watch)
+![Run Tests](https://github.com/deg-skeletor/skeletor-plugin-watch/workflows/Run%20Tests/badge.svg)
 
 ## Config
 ```js
